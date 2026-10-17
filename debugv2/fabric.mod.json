@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "verxydebug",
+  "version": "1.6",
+  "name": "VerxyDebugCracked",
+  "description": " Dexter was here! Leakestan.org, discord.gg/leakestan",
+  "authors": [
+    "Dexter"
+  ],
+  "contact": {
+    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template",
+    "discord": "https://discord.gg/leakestan"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.example.addon.AddonTemplate"
+    ]
+  },
+  "mixins": [
+    "addon-template.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": [
+      "1.21.11"
+    ],
+    "meteor-client": "*"
+  }
+}

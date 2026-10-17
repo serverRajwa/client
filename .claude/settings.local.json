@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf build .gradle)",
+      "Bash(./gradlew clean *)",
+      "Bash(./gradlew build *)",
+      "Bash(xargs -I {} basename {} .java)"
+    ]
+  }
+}

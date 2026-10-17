@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "krypton-avengers-addon",
+  "version": "${version}",
+  "name": "Krypton Avengers Addon",
+  "description": "Krypton Avengers Addon.",
+  "authors": [
+    "Dexter"
+  ],
+  "contact": {
+    "discord": "https://discord.gg/PYfRxkeR7C"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "dev.dexter.kryptionians.KryptioniansAddon"
+    ]
+  },
+  "mixins": [],
+  "custom": {
+    "meteor-client:color": "140, 60, 255"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.11",
+    "meteor-client": "*"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "birowodebug",
+  "version": "${version}",
+  "name": "BirowoDebug",
+  "description": "${mod_description}",
+  "authors": [
+    "Birowo"
+  ],
+  "contact": {
+    "homepage": "https://github.com/birowo/birowodebug"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.birowo.debug.BirowoDebugAddon"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "0,200,255",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.1",
+    "meteor-client": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "com.example.donut.mixin.ExampleMixin",
+    "com.example.help.mixin.ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
